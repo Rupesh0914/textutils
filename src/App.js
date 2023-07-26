@@ -41,7 +41,8 @@ function App() {
         <Routes>
           {/* Define your routes using <Route> components */}
           <Route exact path="/" element={<TextForm />} />
-          <Route exact path="/about" element={<About />} />
+          <Route exacty
+           path="/about" element={<About />} />
           {/* <Route path="/contact" element={<Contact />} /> */}
         </Routes>
       </Router>
